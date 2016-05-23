@@ -1,0 +1,70 @@
+#container{
+	background-color: #68cdd5;
+	margin: 0px;
+
+}
+#header{
+	height: 50px;
+	width: 100%;
+	padding: 0px;
+	background: repeat-x;
+	background-size: 100% 100%;
+	background-color: black;
+	position: relative;
+	
+}
+
+h1{
+	margin: 0rem;
+	text-align: center;	color: white;
+	padding: 0.35rem;
+	}
+	
+#backBtn{
+	position: absolute;
+	left: 0px;
+
+	
+}
+#menu{
+	position: absolute;
+	top: .35rem;
+	right: 0px;
+	
+}
+.back{
+	margin-top: 1.2rem;
+	margin-left: 1.2rem;
+	
+
+}
+.mainlogo{
+
+	margin: auto;
+	width: 70%;
+
+
+}
+.text{
+	margin: auto;
+	width: 70%;
+	font-family: hiraginosansgb w3;
+	font-size: 18px;
+	color:white;
+	
+
+}
+
+.icon{
+	margin: 30% 0%;
+	display: inline-block;
+	float: left;
+	text-align: center;
+	width: 50%;
+
+}
+span{
+	text-align: center;
+	font-size: 1.25rem;
+	color: #fff;
+}
