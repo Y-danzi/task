@@ -1,7 +1,7 @@
 #container{
 	background-color: #68cdd5;
 	margin: 0px;
-
+	
 }
 #header{
 	height: 50px;
@@ -19,6 +19,9 @@ h1{
 	text-align: center;	color: white;
 	padding: 0.35rem;
 	}
+
+img{max-width: 100%;}
+
 	
 #backBtn{
 	position: absolute;
@@ -40,9 +43,7 @@ h1{
 }
 .mainlogo{
 
-	margin: auto;
-	width: 70%;
-
+	text-align: center;
 
 }
 .text{
