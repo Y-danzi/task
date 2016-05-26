@@ -1,0 +1,67 @@
+body{
+	margin: 0;
+}
+
+header{
+	background: #5fc0cd;
+	height: 2.6rem;
+	position: relative;
+}
+
+
+
+a{text-decoration: none;}
+
+header .close{
+	position: absolute;
+	top: .75rem;
+	left: .75rem;
+	color: #fff;
+
+}
+
+header h3, .loginBtn{
+	text-align: center;
+	color: white;
+	margin: 0;
+	line-height: 2.6rem;
+}
+header .register{
+	position: absolute;
+	top: .75rem;
+	right: .75rem;
+	color: #fff;
+
+}
+.layer, .login{
+	margin:1rem .75rem;
+
+}
+
+img{
+	width: 20px;
+	padding-right: 23px;
+	border-right:1px solid #eaedee ;
+	vertical-align: middle;
+	max-width: 100%;
+}
+input{
+
+	border: 0;
+	padding: 0;
+
+
+}
+
+.regiBtn{
+	background: #5fc0cd;
+	height: 2.6rem;
+	
+	text-align: center;
+}
+.forgetpwd{
+	display: block;
+	right: .75rem;
+	color: #5fc0cd;
+	text-align: right;
+}
