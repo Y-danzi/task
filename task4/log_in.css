@@ -5,7 +5,9 @@ body{
 header{
 	background: #5fc0cd;
 	height: 2.6rem;
-	position: relative;
+	position: fixed;
+	top:0;
+	width:100%;
 }
 
 
@@ -13,29 +15,29 @@ header{
 a{text-decoration: none;}
 
 header .close{
-	position: absolute;
-	top: .75rem;
-	left: .75rem;
+	float:left;
+	line-height:2.6rem;
+	padding-left:.75rem;
 	color: #fff;
 
 }
 
-header h3, .loginBtn{
+header  h3,.loginBtn{
 	text-align: center;
 	color: white;
 	margin: 0;
 	line-height: 2.6rem;
 }
 header .register{
-	position: absolute;
-	top: .75rem;
-	right: .75rem;
+	float:right;
+	padding-right:.75rem;
 	color: #fff;
+	margin-top:-2.0rem;
 
 }
-.layer, .login{
+ .login{
 	margin:1rem .75rem;
-
+	margin-top:3rem;
 }
 
 img{
